@@ -1,0 +1,152 @@
+@media screen and (max-width:640px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+        letter-spacing: 3px;
+    }
+
+    h3 {
+        font-size: 1.4rem;
+        letter-spacing: 1px;
+    }
+
+
+    p {
+        width: 100%;
+    }
+
+    .l-full-content {
+        width: 100%;
+    }
+
+    .l-content {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 8rem 0;
+    }
+
+    /* ====== HERO ====== */
+
+
+    .hero-overlay {
+        align-items: center;
+        padding-left: 0;
+    }
+
+    .hero__title {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    .hero__subtitle {
+        font-size: 1rem;
+    }
+
+    .hero__title,
+    .hero__subtitle {
+        line-height: 1.6;
+        letter-spacing: 1px;
+    }
+
+    /* ====== HERO ====== */
+
+
+    /* ====== ABOUT-ME ====== */
+    .about-content {
+        flex-wrap: wrap-reverse;
+    }
+
+    .about__box-image {
+        width: 100%;
+        height: 300px;
+    }
+
+    .about__img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .about__box-description {
+        width: 100%;
+        height: 100%;
+        padding: 4rem 2rem;
+    }
+
+    .about__text {
+        width: 95%;
+        font-size: 13px;
+    }
+
+    /* ====== ABOUT-ME ====== */
+
+
+    /* ====== SKILLS ====== */
+    .skill__tecnology {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        padding-left: 3rem;
+    }
+
+    /* ====== SKILLS ====== */
+
+
+    /* ====== PROJECT ====== */
+
+    .project-content {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .project__box {
+        padding: 3rem 0;
+    }
+
+    .project__box--left {
+        width: 100%;
+    }
+
+    .project__box--right {
+        width: 100%;
+        padding-left: 2rem;
+    }
+
+    .project__box--left {
+        height: 300px;
+
+    }
+
+    /* ====== PROJECT ====== */
+
+    /* ======== GALLERY ======== */
+    .picture {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .picture__box {
+        width: 100%;
+        height: 230px;
+    }
+
+    .lightbox .grande {
+        width: 90%;
+        height: 60%;
+        object-fit: cover;
+    }
+
+    /* ======== GALLERY ======== */
+
+
+    /* ====== CONTACT ====== */
+    .project__box--white {
+        align-items: center;
+    }
+
+
+
+}
